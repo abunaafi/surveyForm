@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <div>
+        <h1 id="title">Personality Survey </h1>
+         <p id="enterDetails">
+            Please Enter your details Below
+         </p>
+        <div id="details">
+
+            <label for="first" id="name-label">
+
+                <input type="text" id="name" required placeholder="Enter Name">
+              </label>
+              <label for="email" id="email-label">
+                  <input type="email" id="email" required placeholder="Enter Email">
+              </label>
+              <label for="third" id="number-label">
+                  <input type="number" id="number" required placeholder="Enter Number">
+              </label> 
+           </div>
+        <p id="description"> 
+           Below is a personality Survey ,try to fill it out as accurate as Possible
+        </p>
+        <form action="" id="survey-form">
+      
+
+           <div id="container">
+            <p id="firstQuestion">1. I Worry about things</p>
+              <input type="radio" id="veryAccurate" name="worryAboutThings" value="very-accurate">
+              <label for="very-accurate">
+                very Accurate</label><br>
+
+              <input type="radio" id="moderatelyAccurate" name="worryAboutThings" value="moderatelyAccurate">
+              <label for="moderatelyAccurate">Moderately Accurate</label><br>
+              <input type="radio" id="NotAccurate" name="worryAboutThings" value="NotAccurate">
+              <label for="NotAccurate">
+                Not Accurate</label>
+             
+              <br>  <br>
+
+              <br>  <br> -->
+ 
+</div>
+           </div>
+            
+
+           <div class="text">
+            <p id="question">Give us your feedback</p>
+            <textarea name="feedback"  cols="30" rows="5"  id="feedback" class="textarea" placeholder="Enter your feedback here..."></textarea>
+        </div>
+        <div class="submit">
+            <button type="submit" id="submit" class="btn">Submit</button>
+        </div>
+        </form>
+        
+    </div>
+    
+</body>
+</html>

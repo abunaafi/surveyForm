@@ -1,0 +1,61 @@
+
+
+body {
+padding: 0;
+margin: 0;
+    font-family: 'Roboto Slab', serif;
+    display: flex;
+    justify-content: center;
+    background-image: url(https://codetheweb.blog/assets/img/posts/css-advanced-background-images/cover.jpg);
+  }
+  #title{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    font-size: 40px;
+    text-align: center;
+}
+
+#description{
+ font-weight: 10000000px;
+font-size: 150%;
+text-align: center;
+}
+
+#container{
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+#header2{
+  width: auto;
+  height: 45%;
+  font-size: 150%;
+  font-style:inherit;
+}
+#firstQuestion{
+  height: 100%;
+}
+.textarea{
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1.15rem;
+  outline: none;
+  
+  border-radius: 5px;
+}
+
+.text{
+  display: flex;
+  align-items: center;
+position: absolute;
+bottom: 15px;
+}
+.submit{
+  display: flex;
+  align-items: center;
+position: absolute;
+bottom: 0px;
+float: right;
+right: 300px;
+}
